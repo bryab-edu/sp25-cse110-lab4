@@ -9,11 +9,13 @@
 9. There would be an error in the code, let is code blocked and the resource mentioned that even though its visually not in the inner code block, it still isn't available outside the loop, so there is an error
 10. The code will output the variable length, no error since its not modified nor is limited by any code block.
 11. The function should successfully return either an empty array or an array of discounted prices. We are still following within the confines of the array so the array being a const shouldn't be affected, unless we were to reassign another array onto it.
+#### 12
 12a. student.name
 12b. student['Grad Year']
 12c. student.greeting();
 12d. student['Favorite Teacher'].name
 12e. student.courseLoad[0]
+#### 13
 13a. '32' due to string concatenation not addition
 13b. 1 due to - being solely arithmetic thus theres numeric coercion
 13c. 3 due to null having the arithmetic value 0
@@ -22,10 +24,12 @@
 13f. 0 due to false and null are coerced to 0
 13g. '3undefined' due to + being in a string concatenation
 13h. NaN due to undefined being NaN in arithmetic
+#### 14
 14a. True, in comparisons strings get converted to numbers so 2 is greater than 1
 14b. false, because its now only comparing strings by character, so '2' > '1' and thus '2' is not < '12'
 14c. true, coercion to numbers so '2' => 2 so 2 == 2.
 14d. false, === considers types and doesn't involve type conversions, so different types return a false
 14e. false, true is converted into 1 and thus 1 != 2
 14f. true, any nonzero number is true when converted in Boolean so 2 = true and true = true, also === doesn't affect the output because the type conversion has already been performed
+#### 15
 15. As briefly explained in 14d == is different from === because == performs type conversions and === does not, thus making for largely different comaprisons.
