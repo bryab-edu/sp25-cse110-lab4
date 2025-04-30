@@ -1,4 +1,4 @@
-1. No, the code doesn't return an error and prints the object result, which is the sum of objects num1 and num2 (in some way whether they are actually numbers or not)
+1. No, the code doesn't return an error and prints the object result 10+10=20, which is the sum of objects num1 and num2 (in some way whether they are actually numbers or not)
 2. Yes, the code can return an error on line 13, if the condition for add isn't met, object result can't be logged or printed if it was never initialized because it is only initialized within the if statement
 3. var is not recommended because it acts like a global variable and isn't limited by code blocks. If the function was executed, the object can still be called upon for use outside the code block.
 4. No, the code behaves as if we had result be a var object, where it returns the sum.
