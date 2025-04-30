@@ -33,3 +33,5 @@
 14f. true, any nonzero number is true when converted in Boolean so 2 = true and true = true, also === doesn't affect the output because the type conversion has already been performed
 #### 15
 15. As briefly explained in 14d == is different from === because == performs type conversions and === does not, thus making for largely different comaprisons.
+#### 17
+17. The result is an array [2,4,6] because the function iterates through each number of the list and refers to another function that multiplies that number by 2 and pushes it onto a new array which the function returns that new array.
