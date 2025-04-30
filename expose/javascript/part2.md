@@ -22,3 +22,10 @@
 13f. 0 due to false and null are coerced to 0
 13g. '3undefined' due to + being in a string concatenation
 13h. NaN due to undefined being NaN in arithmetic
+14a. True, in comparisons strings get converted to numbers so 2 is greater than 1
+14b. false, because its now only comparing strings by character, so '2' > '1' and thus '2' is not < '12'
+14c. true, coercion to numbers so '2' => 2 so 2 == 2.
+14d. false, === considers types and doesn't involve type conversions, so different types return a false
+14e. false, true is converted into 1 and thus 1 != 2
+14f. true, any nonzero number is true when converted in Boolean so 2 = true and true = true, also === doesn't affect the output because the type conversion has already been performed
+15. As briefly explained in 14d == is different from === because == performs type conversions and === does not, thus making for largely different comaprisons.
