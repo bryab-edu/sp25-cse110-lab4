@@ -1,3 +1,4 @@
+
 1. It would print the index of elements in the list prices at line 12, this case i=2.
 2. There would be no error in the code and line 12 would print the most recent discounted price calculated since the variable is a global variable from 300 * .5 = 150.
 3. finalPrice is a global variable visually not limited by any code blocks and is clearly in the scope of the function, thus no error at line 14, 150.
@@ -35,3 +36,5 @@
 15. As briefly explained in 14d == is different from === because == performs type conversions and === does not, thus making for largely different comaprisons.
 #### 17
 17. The result is an array [2,4,6] because the function iterates through each number of the list and refers to another function that multiplies that number by 2 and pushes it onto a new array which the function returns that new array.
+#### 19
+19. The code would output 1 and 4, then 3, then 2. This is due to how 2 and 3 have a timeout (scheduling and executing), therefore 1 and 4 are basically instantenous while 3 with the timeout function set after and 1 second with 2.
